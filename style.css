@@ -1,0 +1,49 @@
+.holder{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border: 4px solid black;
+    border-radius:  9px 9px 0px 0px;   
+}
+.item:first-child  {
+    background-color: red;
+    order: 1;
+    padding-left:77px ;
+    padding-right: 77px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.item:nth-of-type(2) {
+background-color: aqua;
+order: 4;
+padding-left: 50px;
+padding-right: 50px;
+padding-top: 15px;
+padding-bottom: 15px;
+}
+.item:nth-of-type(3) {
+    background-color: purple;
+    order: 3;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.item:nth-of-type(4) {
+    background-color: green;
+    order: 5;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top:15px;
+    padding-bottom: 15px;
+}
+.item:nth-of-type(5) {
+    background-color: orange;
+    order: 2;
+    padding-left:77px ;
+    padding-right: 77px;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+}
+
