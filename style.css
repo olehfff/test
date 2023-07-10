@@ -1,12 +1,57 @@
-.holder{
+.батько{
     display: flex;
 }
-.item:first-child  {
-    background-color: red;
-    order: 1;
-    padding-left:77px ;
-    padding-right: 77px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+.card1::before{
+    position: absolute;
+    content: "";
+    background-image: url(antenna1.png);
+    width: 68px;
+    height: 60px;
+    margin-bottom: 30px;
+    top: 32px;
+    left: 19px;
     
+}
+.card1{
+    margin-top: 60px;
+    
+}
+.card2::before{
+    position: absolute;
+    content: "";
+    background-image: url(diagram1.png);
+    width: 68px;
+    height: 60px;
+    margin-bottom: 30px;
+    top: 32px;
+    left: 429px;
+}
+.card2{
+    margin-top: 60px;
+}
+.card3::before{
+    position: absolute;
+    content: "";
+    background-image: url(astronaut1.png);
+    width: 68px;
+    height: 60px;
+    margin-bottom: 30px;
+    top: 32px;
+    left: 804px;
+}
+.card3{
+    margin-top: 60px;
+}
+.card4::before{
+    position: absolute;
+    content: "";
+    background-image: url(clock1.png);
+    width: 68px;
+    height: 60px;
+    margin-bottom: 30px;
+    top: 32px;
+    left: 1200px;
+}
+.card4{
+    margin-top: 60px;
 }
