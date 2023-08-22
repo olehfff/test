@@ -1,6 +1,6 @@
 header{
     display: flex;
-    background-image: url("Rectangle141.png");
+    background-image: url("/img/Rectangle104.png");
     height: 40px;
     justify-content: center;
     width: 1600px;
@@ -44,7 +44,7 @@ img{
     }
 
 .gacke{
-    background-image:url(Group481.png) ;
+    background-image:url(/img/Group481.png) ;
     height: 545px;
     width: 1700px;
     margin-bottom: -176px;
@@ -59,21 +59,22 @@ img{
   margin-right: 29px;
 }
 .trailer{
-    background-image: url(Group38.png);
+    background-image: url(/img/Group38.png);
     height: 545px;
 
 }
 .our-energy{
     text-align: center;
 }
-.learning-navi-lang{
-    background-image: url(Group40png);
+.learning-navi-leng{
+    background-image: url(/img/Rectangle20.png);
+    height: 500px;
 }
 .our-mather{
     text-align: center;
 }
 footer{
-    background-image: url(Rectangle141.png);
+    background-image: url(/img/Rectangle141.png);
     display: flex;
 }
 .AVATAR-2{
