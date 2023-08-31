@@ -1,23 +1,16 @@
 header{
     display: flex;
-    background-image: url("/img/Rectangle104.png");
-    height: 40px;
-    justify-content: center;
-    width: 1600px;
-    padding-left: 0px;
+    background-image: url(/img/Rectangle104.png);
+    justify-content: space-around;
+    align-items: center;
+    background-size: cover;
+    padding: 39px 0;
 }
 a{
     padding: 4px;
 }
-img{
-    margin-right: 300px;
-    margin-top: 4px;
-}
 .AVATAR{
-    margin-top: 4px;
-    margin-right: 500px;
-    margin-bottom: 4px;
-    margin-left: 50px;
+    margin-left: 250px;
 }
 .imails{
     display: flex;
@@ -45,23 +38,26 @@ img{
 
 .gacke{
     background-image:url(/img/Group481.png) ;
-    height: 545px;
-    width: 1700px;
-    margin-bottom: -176px;
+    display: flex;
     background-size: cover;
-
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 180px 0;
 }
 .warm-with-sky-people{
     text-align: center;
-    margin-top: 181px;
 }
 .warm-bird{
   margin-right: 29px;
 }
 .trailer{
-    background-image: url(/img/Group38.png);
+    background-image: url(/img/Rectangle101.png);
     height: 545px;
-
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding: 98px;
+    width: 1300px;
 }
 .our-energy{
     text-align: center;
@@ -108,11 +104,9 @@ footer{
 .text{
     width: 161px;
 }
-/* .gacke-text{
-   
-} */
 .welkome-to-us{
     width: 167px;
+    color: aliceblue;
 }
 .Rectangle8{
     width: 301px;
@@ -122,6 +116,31 @@ footer{
     margin-left: 8px;
 }
 .you-tube{
-    margin-right: 358px;
-    margin-top: 7px;
+    width: 30px;
+    height: 30px;
+}
+.Rectangle85{
+    width: 141px;
+    height: 41px;
+}
+.enter{
+    margin-left: -176px;
+    color: white;
+}
+.imail{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+}
+.instagram{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 3px;
+}
+.applications{
+    width: 0px;
+}
+.watch-trailer{
+   margin-left: -188px;
+   color: azure;
 }
