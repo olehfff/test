@@ -90,6 +90,7 @@ footer{
 }
 .footer-contact{
     text-align: center;
+    background-color: red;
 }
 .appeal{
     height: 241px;
@@ -143,4 +144,7 @@ footer{
 .watch-trailer{
    margin-left: -188px;
    color: azure;
+}
+.gacke-text{
+    color: white;
 }
