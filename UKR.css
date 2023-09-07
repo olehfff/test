@@ -1,13 +1,15 @@
 header{
     display: flex;
-    background-image: url(/img/Rectangle104.png);
+    background-image: url(./img/Rectangle104.png);
     justify-content: space-around;
     align-items: center;
     background-size: cover;
     padding: 39px 0;
+    background-repeat: no-repeat;
 }
 a{
     padding: 4px;
+    color: white;
 }
 .AVATAR{
     margin-left: 250px;
@@ -37,12 +39,13 @@ a{
     }
 
 .gacke{
-    background-image:url(/img/Group481.png) ;
+    background-image:url(./img/Group481.png) ;
     display: flex;
     background-size: cover;
     justify-content: space-evenly;
     align-items: center;
     padding: 180px 0;
+    background-repeat: no-repeat;
 }
 .warm-with-sky-people{
     text-align: center;
@@ -51,32 +54,33 @@ a{
   margin-right: 29px;
 }
 .trailer{
-    background-image: url(/img/Rectangle101.png);
-    height: 545px;
+    background-image: url(./img/Rectangle101.png);
     justify-content: center;
     display: flex;
     align-items: center;
-    padding: 98px;
-    width: 1300px;
+    padding: 330px 0;
+    background-repeat: no-repeat;
 }
 .our-energy{
     text-align: center;
 }
 .learning-navi-leng{
-    background-image: url(/img/Rectangle20.png);
+    background-image: url(./img/Rectangle20.png);
     background-size: cover;
     display: grid;
     grid-template-columns: 320px 320px 320px;
     grid-template-rows: 240px 240px;
     align-items: center;
     justify-content: center;
+    background-repeat: no-repeat;
 }
 .our-mather{
     text-align: center;
 }
 footer{
-    background-image: url(/img/Rectangle141.png);
+    background-image: url(./img/Rectangle104.png);
     display: flex;
+    background-repeat: no-repeat;
 }
 .AVATAR-2{
     height: 95px;
@@ -89,8 +93,7 @@ footer{
     margin-left: -469px;
 }
 .footer-contact{
-    text-align: center;
-    background-color: red;
+    display: flex;
 }
 .appeal{
     height: 241px;
