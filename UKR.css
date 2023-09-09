@@ -60,6 +60,7 @@ a{
     align-items: center;
     padding: 330px 0;
     background-repeat: no-repeat;
+    background-size: cover;
 }
 .our-energy{
     text-align: center;
@@ -81,6 +82,9 @@ footer{
     background-image: url(./img/Rectangle104.png);
     display: flex;
     background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
 }
 .AVATAR-2{
     height: 95px;
@@ -94,6 +98,10 @@ footer{
 }
 .footer-contact{
     display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
 }
 .appeal{
     height: 241px;
@@ -150,4 +158,16 @@ footer{
 }
 .gacke-text{
     color: white;
+}
+.footer-email1{
+    display: flex;
+}
+.footer-email2{
+    display: flex;
+}
+.vector8{
+    height: 2px;
+}
+.vector9{
+    height: 2px;
 }
