@@ -84,17 +84,10 @@ footer{
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
-}
+    justify-content: center;
 }
 .AVATAR-2{
-    height: 95px;
-    margin-bottom: 4px;
-    margin-left: 50px;
-    margin-top: 4px;
-    margin-right: 500px;
-}
-.line{
-    margin-left: -469px;
+    height: 119px;
 }
 .footer-contact{
     display: flex;
@@ -102,6 +95,7 @@ footer{
     text-align: center;
     align-items: center;
     justify-content: center;
+    margin-right: 245px;
 }
 .appeal{
     height: 241px;
@@ -122,6 +116,7 @@ footer{
 }
 .Rectangle8{
     width: 301px;
+    height: 42px;
 }
 .invitation{
     margin-top: -40px;
@@ -167,7 +162,16 @@ footer{
 }
 .vector8{
     height: 2px;
+    margin-top: 25px;
 }
 .vector9{
     height: 2px;
+    margin-top: 25px;
+}
+.footer-img{
+    margin-right: 114px;
+}
+h2{
+    margin-left: 650px;
+    margin-bottom: -29px;
 }
